@@ -15,7 +15,7 @@ model = genai.GenerativeModel('gemini-pro-vision')
 # response = model.generate_content(img)
 
 # Send photo with a message:
-response = model.generate_content(["Nereye park edeyim?" ,img])
+response = model.generate_content(["Where should I park?" ,img])
 
 # Returned message:
 print(response.text)
